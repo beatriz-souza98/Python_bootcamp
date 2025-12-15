@@ -49,7 +49,7 @@ elif bonus.isspace():
     exit()
 #Caso usuario coloque simbolo da porcentagem
 elif "%" in bonus:
-    print("Digite apenas números")
+    print("Digite apenas números") 
     exit()
 
 bonus_usuario = float(bonus)
